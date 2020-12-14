@@ -1,0 +1,42 @@
+body{
+    background-image: url(img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+}
+
+header{
+    background-color: ghostwhite;
+    height: 75px;
+    margin: 0px;
+}
+
+.contacts{
+    float: right;
+    text-align: right;
+    margin: 0px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+.myPh{
+    height: 645px;
+    border: solid 1px white;
+    float: right;
+}
+
+.myTxt{
+    float: left;
+    margin-top: 106px;
+    border: groove;
+    background-color: floralwhite;
+}
+
+#center{text-align: center;}
+
+@media (max-width: 426px) {
+    .myTxt{margin-top: 0px}
+}
